@@ -66,6 +66,10 @@ def main():
             if keyboard.is_pressed('left'):
                 switch_slide('previous')
                 sleep(0.5)
+            if keyboard.is_pressed('right'):
+                switch_slide('next')
+                sleep(0.5)
+
             if keyboard.is_pressed('r'):
                 command_exec('reboot')
                 sleep(0.5)
