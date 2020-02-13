@@ -54,10 +54,10 @@ def main():
         try:  #
             sleep(0.1)
 
-            if keyboard.is_pressed('n'):
+            if keyboard.is_pressed('right arrow'):
                 switch_slide('next')
                 sleep(0.5)
-            if keyboard.is_pressed('p'):
+            if keyboard.is_pressed('left arrow'):
                 switch_slide('previous')
                 sleep(0.5)
             if keyboard.is_pressed('r'):
