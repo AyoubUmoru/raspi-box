@@ -57,10 +57,10 @@ def main():
             if keyboard.is_pressed('p'):
                 switch_slide('previous')
                 sleep(0.5)
-            if keyboard.is_pressed('n'):
+            if keyboard.is_pressed('d'):
                 switch_slide('next')
                 sleep(0.5)
-            if keyboard.is_pressed('6'):
+            if keyboard.is_pressed('7'):
                 switch_slide('next')
                 sleep(0.5)
             if keyboard.is_pressed('left'):
