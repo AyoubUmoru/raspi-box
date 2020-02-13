@@ -10,5 +10,8 @@ Installing requirements
 ## scripts
 Various scripts for automating setup
 
+## deamons
+Services used for automation
+
 ## tools
 Magic toolbox
