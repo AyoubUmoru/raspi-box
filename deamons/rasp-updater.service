@@ -5,7 +5,7 @@ After=network-online.target
 
 [Service]
 ExecStartPre=sleep 10
-ExecStart=git --git-dir=/home/pi/raspi-box/.git pull origin master
+ExecStart=git --git-dir=/home/pi/raspi-box/.git --work-tree=/home/pi/raspi-box/ pull origin master
 Type=simple
 User=pi
 
