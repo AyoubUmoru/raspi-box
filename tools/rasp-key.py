@@ -60,9 +60,7 @@ def main():
             if keyboard.is_pressed('d'):
                 switch_slide('next')
                 sleep(0.5)
-            if keyboard.is_pressed('7'):
-                switch_slide('next')
-                sleep(0.5)
+
             if keyboard.is_pressed('left'):
                 switch_slide('previous')
                 sleep(0.5)
