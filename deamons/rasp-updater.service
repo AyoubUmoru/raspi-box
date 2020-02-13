@@ -1,0 +1,10 @@
+[Unit]
+Description=raspi-box updater
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+ExecStart=git --git-dir=/home/pi/raspi-box/.git pull origin master
+
+[Install]
+WantedBy=multi-user.target
