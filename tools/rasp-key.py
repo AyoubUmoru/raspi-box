@@ -57,6 +57,14 @@ def main():
             if keyboard.is_pressed('p'):
                 switch_slide('previous')
                 sleep(0.5)
+# Andoer FM4 start
+            if keyboard.is_pressed('67'):
+                switch_slide('next')
+                sleep(0.5)
+            if keyboard.is_pressed('68'):
+                switch_slide('previous')
+                sleep(0.5)
+# Andoer FM4 end
             if keyboard.is_pressed('d'):
                 switch_slide('next')
                 sleep(0.5)
