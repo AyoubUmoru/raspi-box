@@ -5,6 +5,7 @@ After=network-online.target
 
 [Service]
 ExecStart=git --git-dir=/home/pi/raspi-box/.git pull origin master
+Type=simple
 
 [Install]
 WantedBy=multi-user.target

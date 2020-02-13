@@ -4,6 +4,8 @@ After=rasp-keys.service
 
 [Service]
 ExecStart=python3 /home/pi/raspi-box/tools/rasp-key.py
+Type=simple
+User=root
 
 [Install]
 WantedBy=multi-user.target
