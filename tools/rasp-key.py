@@ -82,8 +82,8 @@ def main():
             if keyboard.is_pressed('c'):
                 command_exec('close')
                 sleep(0.5)
-        except:
-            print('errrrr')
+        except Exception as e:
+            print('Failed to catch key: ' + str(e))
 
 
 if __name__ == "__main__":
