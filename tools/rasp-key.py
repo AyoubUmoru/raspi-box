@@ -59,12 +59,15 @@ def main():
                 sleep(0.5)
 # Andoer FM4 start
             if keyboard.is_pressed('67'):
+                print("You pressed: {}".format("67"))
                 switch_slide('next')
                 sleep(0.5)
             if keyboard.is_pressed('68'):
+                print("You pressed: {}".format("68"))
                 switch_slide('previous')
                 sleep(0.5)
 # Andoer FM4 end
+
             if keyboard.is_pressed('d'):
                 switch_slide('next')
                 sleep(0.5)
@@ -81,6 +84,15 @@ def main():
                 sleep(0.5)
             if keyboard.is_pressed('c'):
                 command_exec('close')
+                sleep(0.5)
+# Some debug
+            if keyboard.is_pressed('n'):
+                switch_slide('next')
+                print("You pressed: {}".format("n"))
+                sleep(0.5)
+            if keyboard.is_pressed('l'):
+                switch_slide('next')
+                print("You pressed: {}".format("l"))
                 sleep(0.5)
         except Exception as e:
             print('Failed to catch key: ' + str(e))

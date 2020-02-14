@@ -1,0 +1,8 @@
+devices:
+- input_name: 'Logitech K400 Plus'
+  output_name: remap-kbd
+  remappings:
+    KEY_N:
+    - KEY_L
+    KEY_67:
+    - KEY_H

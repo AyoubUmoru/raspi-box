@@ -1,0 +1,11 @@
+[Unit]
+Conflicts=gnome-shell-x11.service
+
+[Service]
+WorkingDirectory=/tmp
+ExecStart=evdevremapkeys -f /home/pi/raspi-box/config/key_config.yaml
+Restart=always
+NoNewPrivileges=true
+
+[Install]
+WantedBy=multi-user.target
