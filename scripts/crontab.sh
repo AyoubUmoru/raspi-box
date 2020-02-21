@@ -1,3 +1,3 @@
 #!/bin/bash
 
-(crontab -l 2>/dev/null; echo "*/5 * * * * /home/pi/raspi-box/tools/monitorMetrics.sh >/dev/null 2>&1") | crontab -
+sudo (crontab -l 2>/dev/null; echo "*/1 * * * * /home/pi/raspi-box/tools/monitorMetrics.sh >/tmp/cronny.log 2>&1") | crontab -
