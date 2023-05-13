@@ -10,7 +10,7 @@ import keyboard
 
 SCREENLY_OSE_API = getenv(
     'SCREENLY_OSE_API',
-    'http://localhost:8080'
+    'http://localhost:80'
 )
 SCREENLY_OSE_ENDPOINT = getenv(
     'SCREENLY_OSE_ENDPOINT',

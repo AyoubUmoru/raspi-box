@@ -1,9 +1,9 @@
 [Unit]
 Description=raspi-box key handler
-After=rasp-keys.service
+After=rasp-button.service
 
 [Service]
-ExecStart=python3 /home/zdf/rasp-key.py
+ExecStart=python3 /home/zdf/button.py
 Type=simple
 User=root
 
